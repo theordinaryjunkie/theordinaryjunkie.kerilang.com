@@ -1,0 +1,31 @@
+body {
+    margin:0;
+    padding: 0;
+    background: #eee6e4;
+    color: #59514f;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif
+}
+a, a:visited{
+    color: #59514f;
+}
+
+.logo {
+    text-align: center;
+    margin: 1.3em 0 1.5em;
+}
+.logo a{
+    color: #59514f;
+    text-decoration: none;
+    font-size: 2em;
+}
+.wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+main {
+    background: #fff;
+    padding: 20px
+}
