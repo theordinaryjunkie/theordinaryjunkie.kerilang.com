@@ -5,4 +5,8 @@ price: "999.99"
 availability: "in stock"
 ---
 
-It's a great product
+Niacinamide 10% + Zinc 1%, 60ml.
+🏷 PHP 810
+✔️The ultimate anti-blemish, anti-oil, pore refining formula. A serum with high concentration of vitamin B3 (Niacinamide) + zinc.
+🕖 AM + PM.
+✖️Do not use with pure vitamin C.
