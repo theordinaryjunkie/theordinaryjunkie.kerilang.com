@@ -1,0 +1,38 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h2>{{ .Title }}</h2>
+
+			<div class="meta">
+				<div>Price: ₱<span class="price">{{ .Params.price }}</div>
+				<div>Availability: <span class="availability">{{ .Params.availability }}</div>
+			</div>
+			{{ $title := .Title }}
+			{{ with .Params.images }}
+				<div class="images">
+				{{ range . }}
+					<img alt="{{ $title }}" loading="lazy" src="{{ . }}">
+				{{ end }}
+				</div>
+			{{ end }}
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+			{{ with .Site.DisqusShortname }}
+			<div>
+				{{ template "_internal/disqus.html" . }}
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

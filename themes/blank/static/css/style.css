@@ -27,5 +27,14 @@ img {
 }
 main {
     background: #fff;
-    padding: 20px
+    padding: 20px;
+}
+article h2 {
+    margin-top: 0;
+}
+.price, .availability {
+    font-weight: bold;
+}
+.meta {
+    margin-bottom: 1em;
 }
