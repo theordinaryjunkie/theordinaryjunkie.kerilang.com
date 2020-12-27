@@ -36,5 +36,14 @@ article h2 {
     font-weight: bold;
 }
 .meta {
-    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meta dt{
+    width: 20%;
+    text-align: right;
+}
+.meta dd {
+    margin-left: auto;
+    width: 78%;
 }

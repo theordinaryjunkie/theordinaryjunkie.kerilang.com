@@ -2,11 +2,14 @@
 	<main>
 		<article>
 			<h2>{{ .Title }}</h2>
-
-			<div class="meta">
-				<div>Price: ₱<span class="price">{{ .Params.price }}</div>
-				<div>Availability: <span class="availability">{{ .Params.availability }}</div>
-			</div>
+			<dl class="meta">
+				<dt>Price</dt>
+					<dd class="price">₱ {{ .Params.price }}</dd>
+				<dt>Availability</dt>
+					<dd class="availability">{{ .Params.availability }}</dd>
+				<dt>Condition</dt>
+					<dd class="availability">{{ .Params.condition }}</dd>
+			</dl>
 			{{ $title := .Title }}
 			{{ with .Params.images }}
 				<div class="images">
