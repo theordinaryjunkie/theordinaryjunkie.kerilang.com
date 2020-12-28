@@ -2,3 +2,5 @@ baseURL = "https://theordinaryjunkie.kerilang.com"
 languageCode = "en-us"
 title = "The Ordinary Junkie"
 theme = "blank"
+[params]
+    messengerUsername = "theordinaryjunkieph"

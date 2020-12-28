@@ -38,6 +38,7 @@ article h2 {
 .meta {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1em;
 }
 .meta dt{
     width: 20%;
@@ -46,4 +47,18 @@ article h2 {
 .meta dd {
     margin-left: auto;
     width: 78%;
+}
+a.order-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #59514f;
+    color: #eee6e4;
+    padding: 1em 2em;
+    box-sizing: content-box;
+    display: inline-block;
+}
+.order {
+    text-align: center;
+    margin: 1em 0;
+    box-sizing: content-box;
 }
