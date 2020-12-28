@@ -7,6 +7,14 @@
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1KPTGZDEY9"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-1KPTGZDEY9');
+	</script>
 </head>
 <body>
 	<div class="wrapper">
