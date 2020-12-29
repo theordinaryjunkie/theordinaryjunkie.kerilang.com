@@ -4,6 +4,7 @@ title = "The Ordinary Junkie"
 theme = "blank"
 paginate = 60
 [params]
+    description = "The Ordinary Junkie Online Shop"
     messengerUsername = "theordinaryjunkieph"
     mainSections = ["product"]
     [params.links]

@@ -1,12 +1,15 @@
 {{ define "main" }}
 	<main>
-		<article>
-			<h2>{{ .Title }}</h2>
-			<dl class="meta">
+		<article itemscope itemtype="https://schema.org/Product">
+			<h2 itemprop="name">{{ .Title }}</h2>
+			<dl class="meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
 				<dt>Price</dt>
-					<dd class="price">₱ {{ .Params.price }}</dd>
+					<dd class="price">
+						<span itemprop="priceCurrency" content="PHP">₱</span>
+						<span itemprop="price">{{ .Params.price }}</span>
+					</dd>
 				<dt>Availability</dt>
-					<dd class="availability">{{ .Params.availability }}</dd>
+					<dd class="availability" itemprop="availability">{{ .Params.availability }}</dd>
 				<!-- <dt>Condition</dt>
 					<dd class="availability">{{ .Params.condition }}</dd> -->
 			</dl>
@@ -17,11 +20,11 @@
 			{{ with .Params.images }}
 				<div class="images">
 				{{ range . }}
-					<img alt="{{ $title }}" loading="lazy" src="{{ . }}">
+					<img itemprop="image" alt="{{ $title }}" loading="lazy" src="{{ . }}">
 				{{ end }}
 				</div>
 			{{ end }}
-			<div>
+			<div itemprop="description">
 				{{ .Content }}
 			</div>
 			{{ with .Params.tags }}
