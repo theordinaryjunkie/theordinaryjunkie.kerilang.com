@@ -14,4 +14,4 @@ images:
 
 ✖️Do not use with peptides, direct acids, and Vitamin C.
 
-Also available in 0.2% and 1% concentrations.
+Also available in 0.5% and 1% concentrations.
