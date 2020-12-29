@@ -66,5 +66,8 @@ a.order-btn {
     text-align: center;
 }
 .fpproduct h2 {
-    margin: 4em 0 1.6em;
+    margin: 1.6em 0;
+}
+.fpproduct h2 a {
+    text-decoration: none;
 }
