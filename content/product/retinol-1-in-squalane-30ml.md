@@ -8,3 +8,16 @@ images:
 - "/images/retinol-1-in-squalane-30ml.jpg"
 ---
 
+	
+2020-12-29 04:59:34 +0000
+530
+In stock
+New
+/images/retinol-0-2-in-squalane-30ml.jpg
+✔️The most potent age-old vitamin A derivative that prevents fine lines, reverses sun damage, and fights acne. Can cause initial skin irritation. Start with lower concentrations and work your way up.
+
+🕖 PM. Avoid sun exposure.
+
+✖️Do not use with peptides, direct acids, and Vitamin C.
+
+Also available in 0.2% and 0.5% concentrations.
