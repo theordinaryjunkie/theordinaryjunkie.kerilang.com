@@ -5,5 +5,6 @@ price: "750"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/aha-30-bha-2-peeling-solution.jpg"
 ---
 
