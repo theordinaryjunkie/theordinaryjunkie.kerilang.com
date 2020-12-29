@@ -2,5 +2,11 @@ baseURL = "https://theordinaryjunkie.kerilang.com"
 languageCode = "en-us"
 title = "The Ordinary Junkie"
 theme = "blank"
+paginate = 60
 [params]
     messengerUsername = "theordinaryjunkieph"
+    mainSections = ["product"]
+    [params.links]
+        instagram = "https://www.instagram.com/theordinaryjunkieph/"
+        facebook = "https://www.facebook.com/theordinaryjunkieph"
+        shopee = "https://shopee.ph/valbaricua"

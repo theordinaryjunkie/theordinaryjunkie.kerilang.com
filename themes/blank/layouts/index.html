@@ -2,7 +2,7 @@
 	<main>
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
-			{{ .Render "summary" }}
+			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 		{{ end }}
 		{{ partial "pagination.html" . }}
 	</main>
