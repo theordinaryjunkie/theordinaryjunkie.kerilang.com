@@ -8,3 +8,8 @@ images:
 - "/images/salicylic-acid-2-masque-50ml.jpg"
 ---
 
+✔️The perfect cleansing mask for acne prone skin. Formulated with vegetarian charcoal and Amazonian clay, it has a cooling sensation when applied and dries up zits and controls oil production when used consistently.
+
+🕖 AM + PM.
+
+✖️Do not use with strong acids & peptides.

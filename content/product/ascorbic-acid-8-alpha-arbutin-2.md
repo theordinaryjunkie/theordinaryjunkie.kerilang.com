@@ -8,3 +8,8 @@ images:
 - "/images/ascorbic-acid-8-alpha-arbutin-2.jpg"
 ---
 
+✔️This silky serum warms your skin and brings it back to life. Use to combat signs of aging, uneven skin tone, and dark spots.
+
+🕖 AM + PM. Avoid use around the eyes and use sun protection.
+
+✖️Do not use with peptides, niacinamide, other acids, or retinols.

@@ -8,3 +8,8 @@ images:
 - "/images/100-organic-cold-pressed-moroccan-argan-oil-30ml.jpg"
 ---
 
+✔️Remember when Argan Oil used to be all the hype? Well here it is in its purest most potent form. Use it to combat dry skin and hair.
+
+🕖 PM. A few drops to the entire face / to clean, damp hair.
+
+✖️ May be too heavy for oily skin.

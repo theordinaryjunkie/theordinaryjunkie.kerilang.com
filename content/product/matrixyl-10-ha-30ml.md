@@ -8,3 +8,8 @@ images:
 - "/images/matrixyl-10-ha-30ml.jpg"
 ---
 
+✔️A high-strength Botox-in-a-bottle formula that increases collagen production and reduces both smile lines around your eyes and mouth, as well as static wrinkles across the cheek, at the corners of the mouth, and along the neck.
+
+🕖 AM + PM.
+
+✖️Do not use with other peptides, direct acids, and Vitamin C.

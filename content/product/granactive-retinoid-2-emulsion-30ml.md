@@ -8,3 +8,8 @@ images:
 - "/images/granactive-retinoid-2-emulsion-30ml.jpg"
 ---
 
+✔️The gentler option in fighting acne and preventing wrinkles, without the possible irritation coming from pure retinol.
+
+🕖 PM. Avoid sun exposure.
+
+✖️Do not use with peptides, direct acids, and vitamin C.
