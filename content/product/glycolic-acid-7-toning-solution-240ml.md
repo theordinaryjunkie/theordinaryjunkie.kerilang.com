@@ -5,5 +5,6 @@ price: "845"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/glycolic-acid-7-toning-solution-240ml.jpg"
 ---
 

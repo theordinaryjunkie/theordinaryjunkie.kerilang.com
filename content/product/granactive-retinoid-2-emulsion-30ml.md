@@ -5,5 +5,6 @@ price: "950"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/granactive-retinoid-2-emulsion-30ml.jpg"
 ---
 

@@ -2,7 +2,12 @@
 	<main>
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
-			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+			<h2>
+				<a href="{{ .Permalink }}">{{ .Title }}
+				<br/>
+				{{ if .Params.images }}<img alt="{{ .Title }}" src="{{ index (.Params.images) 0 }}"/>{{ end }}
+				</a>
+			</h2>
 		{{ end }}
 		{{ partial "pagination.html" . }}
 	</main>
