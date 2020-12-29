@@ -8,3 +8,8 @@ images:
 - "/images/alpha-arbutin-2-ha-30ml.jpg"
 ---
 
+✔️A well-loved serum with a higher concentration of Alpha Arbutin that reduces dark spots from acne scars, natural hyperpigmentation, and sun damage. Has moisturizing Hyaluronic Acid to deliver moisture while you achieve a lighter, even complexion.
+
+🕖 AM + PM.
+
+✖️Do not use with pure Niacinamide.
