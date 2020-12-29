@@ -5,5 +5,6 @@ price: "595"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/lactic-acid-5-ha-2-30ml.jpg"
 ---
 

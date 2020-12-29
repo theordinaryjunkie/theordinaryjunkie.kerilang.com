@@ -5,5 +5,6 @@ price: "750"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/azelaic-acid-suspension-10.jpg"
 ---
 

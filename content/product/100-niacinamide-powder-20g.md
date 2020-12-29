@@ -5,5 +5,6 @@ price: "500"
 availability: "In stock"
 condition: "New"
 images:
+- "/images/100-niacinamide-powder-20g.jpg"
 ---
 
