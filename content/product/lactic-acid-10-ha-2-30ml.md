@@ -15,4 +15,4 @@ images:
 
 ✖️Do a skin test first. Do not use with peptides, other acids, and retinols.
 
-Also comes in 5%% concentration.
+Also comes in 5% concentration.
