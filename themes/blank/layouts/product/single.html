@@ -9,10 +9,12 @@
 						<span itemprop="price">{{ .Params.price }}</span>
 					</dd>
 				<dt>Availability</dt>
-					<dd class="availability" itemprop="availability">{{ .Params.availability }}</dd>
+					<dd class="availability">{{ .Params.availability }}</dd>
 				<!-- <dt>Condition</dt>
 					<dd class="availability">{{ .Params.condition }}</dd> -->
 			</dl>
+			{{ with (eq .Params.availability "In stock") }}<link itemprop="availability" href="https://schema.org/InStock" />{{ end }}
+			{{ with (eq .Params.availability "Preorder") }}<link itemprop="availability" href="https://schema.org/Preorder" />{{ end }}
 			<div class="order">
 				<a class="order-btn" target="_blank" href="https://m.me/{{ .Site.Params.messengerUsername }}?ref=website">Order here</a>
 			</div>
