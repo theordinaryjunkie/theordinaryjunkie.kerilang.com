@@ -23,6 +23,7 @@ price: "$PRICE"
 availability: "$CLEANED_AVAIL"
 condition: "$CONDITION"
 images:
+- "/images/$SLUG.jpg"
 ---
 
 EOF
