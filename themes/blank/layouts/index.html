@@ -4,7 +4,7 @@
 		{{ range $paginator.Pages }}
 			<a class="fpproduct" href="{{ .Permalink }}">
 				<h2>{{ .Title }}</h2>
-				{{ if .Params.images }}<img alt="{{ .Title }}" src="{{ index (.Params.images) 0 }}"/>{{ end }}
+				{{ if .Params.images }}<img alt="{{ .Title }}" loading="lazy" src="{{ index (.Params.images) 0 }}"/>{{ end }}
 			</a>
 		{{ end }}
 		{{ partial "pagination.html" . }}
